@@ -8,7 +8,7 @@ use pyxel::Pyxel;
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize, TypeUuid)]
-#[uuid = "c65283c9-420f-49b4-a99a-56d054160294"]
+#[uuid = "9da4b419-2d5f-4def-a63b-bcc1f43254d4"]
 pub struct PyxelFile {
     /// The file's name
     pub file_name: String,

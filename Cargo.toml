@@ -9,7 +9,7 @@ edition = "2018"
 bevy = {git = "https://github.com/bevyengine/bevy", rev= "43d99bb583866c1adb4aa88f19b88637df0a7f33", default_features = false}
 anyhow = "1.0"
 serde = {version = "1", features = ["derive"]}
-pyxel = {version="0.2.2", features=["images"]}
+pyxel = {git="https://github.com/TheLeonsver1/pyxel"}
 
 [dev-dependencies]
 bevy = {git = "https://github.com/bevyengine/bevy", rev= "43d99bb583866c1adb4aa88f19b88637df0a7f33"}
